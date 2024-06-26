@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeilAFinafrica.WepAPI", "LeilAFinafrica.WepAPI\LeilAFinafrica.WepAPI.csproj", "{078106D2-A06A-4306-92A2-0007461D067E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeilAFinafrica.DataAccessLayer", "LeilAFinafrica.DataAccessLayer\LeilAFinafrica.DataAccessLayer.csproj", "{D9100EB4-97CA-442D-84C5-D76621EE3289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeilAFinafrica.Domain", "LeilAFinafrica.Domain\LeilAFinafrica.Domain.csproj", "{9504895A-2B34-4AAD-8694-E7FEE296F88E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeilAFinafrica.Services", "LeilAFinafrica.Services\LeilAFinafrica.Services.csproj", "{2681B2CC-9DB5-4AAE-A1D4-0F8BD7B771A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeilAFinafrica.Infrastructures", "LeilAFinafrica.Infrastructures\LeilAFinafrica.Infrastructures.csproj", "{0BDE29BA-0827-4C9A-80E8-1725D53B79A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeilAFinafrica.ServicesTest", "LeilAFinafrica.ServicesTest\LeilAFinafrica.ServicesTest.csproj", "{1BA6FA3E-9CCE-4AA2-A636-828F17B0C367}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{078106D2-A06A-4306-92A2-0007461D067E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078106D2-A06A-4306-92A2-0007461D067E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078106D2-A06A-4306-92A2-0007461D067E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078106D2-A06A-4306-92A2-0007461D067E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9100EB4-97CA-442D-84C5-D76621EE3289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9100EB4-97CA-442D-84C5-D76621EE3289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9100EB4-97CA-442D-84C5-D76621EE3289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9100EB4-97CA-442D-84C5-D76621EE3289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9504895A-2B34-4AAD-8694-E7FEE296F88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9504895A-2B34-4AAD-8694-E7FEE296F88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9504895A-2B34-4AAD-8694-E7FEE296F88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9504895A-2B34-4AAD-8694-E7FEE296F88E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2681B2CC-9DB5-4AAE-A1D4-0F8BD7B771A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2681B2CC-9DB5-4AAE-A1D4-0F8BD7B771A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2681B2CC-9DB5-4AAE-A1D4-0F8BD7B771A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2681B2CC-9DB5-4AAE-A1D4-0F8BD7B771A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BDE29BA-0827-4C9A-80E8-1725D53B79A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDE29BA-0827-4C9A-80E8-1725D53B79A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDE29BA-0827-4C9A-80E8-1725D53B79A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDE29BA-0827-4C9A-80E8-1725D53B79A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA6FA3E-9CCE-4AA2-A636-828F17B0C367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA6FA3E-9CCE-4AA2-A636-828F17B0C367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA6FA3E-9CCE-4AA2-A636-828F17B0C367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA6FA3E-9CCE-4AA2-A636-828F17B0C367}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AB263E5-349F-4819-AC05-53F86E8A287E}
+	EndGlobalSection
+EndGlobal
