@@ -9,12 +9,12 @@ namespace LeilAFinafrica.WepAPI.Confogurations
         {
             if (services == null) throw new ArgumentNullException(nameof(services));
 
-            services.AddSwaggerGen(s =>
+            _ = services.AddSwaggerGen(s =>
             {
                 s.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "ChatBot Leila de Finafrica Project Web API pour la soutenance",
+                    Title = "ChatBot de OAV Finafrica Project Web API pour la soutenance",
                     Description = "<h2>API du chatbot de l'application web OAV Finafrica</h2>",
                 });
 
@@ -46,8 +46,8 @@ namespace LeilAFinafrica.WepAPI.Confogurations
         {
             if (app == null) throw new ArgumentNullException(nameof(app));
 
-            app.UseSwagger();
-            app.UseSwaggerUI(c =>
+            _ = app.UseSwagger();
+            _ = app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
             });
